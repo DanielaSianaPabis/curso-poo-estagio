@@ -1,0 +1,13 @@
+package Secao18.Aula226_SolucaoProblemaPt2.model.services;
+
+public class BrazilTaxService {
+
+    public double tax(double amount) {
+        if(amount <= 100) {
+            return amount * 0.2;
+        }
+        else {
+            return amount * 0.15;
+        }
+    }
+}
